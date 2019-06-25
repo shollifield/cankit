@@ -1,0 +1,227 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: X
+
+
+BO_ 201326595 TSC1_SA_Trans: 8 X
+ SG_ EngRqedSpeedCtrlConditions : 3|2@0+ (1,0) [0|0] "" X
+ SG_ EngOverrideCtrlMode : 1|2@0+ (1,0) [0|0] "" X
+ SG_ EngRqedTorque_TorqueLimit : 29|6@0+ (1,-125) [0|0] "%" X
+ SG_ EngineRequestedTorqueHiRes : 42|3@0+ (0.125,0) [0|0] "%" X
+
+BO_ 217056000 EEC2: 8 X
+ SG_ AccelPedal2LowIdleSwitch : 6|1@0+ (1,0) [0|0] "" X
+ SG_ AccelPedal1LowIdleSwitch : 0|1@0+ (1,0) [0|0] "" X
+ SG_ AccelPedalPos1 : 15|8@0+ (0.4,0) [0|0] "%" X
+ SG_ EngPercentLoadAtCurrentSpeed : 22|7@0+ (1,0) [0|0] "%" X
+ SG_ AccelPedalPos2 : 39|8@0+ (0.4,0) [0|0] "%" X
+
+BO_ 217996006 MSG_0xcfe5ae6: 8 X
+ SG_ Unknown_0 : 38|1@0+ (1,0) [0|0] "" X
+
+BO_ 218038539 MSG_0xcff010b: 8 X
+ SG_ Unknown_0 : 55|2@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 51|6@0- (1,0) [0|0] "" X
+ SG_ Unknown_2 : 59|3@0- (1,0) [0|0] "" X
+
+BO_ 218041344 MSG_0xcff0c00: 8 X
+ SG_ Unknown_1 : 57|2@0+ (1,0) [0|0] "" X
+
+BO_ 218047799 MSG_0xcff2537: 8 X
+ SG_ Unknown_0 : 4|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 2|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_2 : 52|1@0+ (1,0) [0|0] "" X
+
+BO_ 218049297 MSG_0xcff2b11: 8 X
+ SG_ Unknown_0 : 34|1@0+ (1,0) [0|0] "" X
+
+BO_ 218053649 MSG_0xcff3c11: 8 X
+ SG_ Unknown_0 : 48|1@0+ (1,0) [0|0] "" X
+
+BO_ 218055751 MSG_0xcff4447: 8 X
+ SG_ Unknown_0 : 2|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 9|1@0+ (1,0) [0|0] "" X
+
+BO_ 218077696 MSG_0xcff9a00: 8 X
+ SG_ Unknown_0 : 0|14@1+ (1,0) [0|0] "" X
+
+BO_ 418381839 ERC1: 8 X
+ SG_ ActlMxAvlblRtarderPercentTorque : 62|7@0+ (1,-125) [0|0] "%" X
+
+BO_ 418382091 EBC1_Brakes: 8 X
+ SG_ EBSBrakeSwitch : 6|1@0+ (1,0) [0|0] "" X
+
+BO_ 419265280 MSG_0x18fd7b00: 8 X
+ SG_ Unknown_0 : 5|4@0+ (1,0) [0|0] "" X
+
+BO_ 419265536 DPFC1: 8 X
+ SG_ DslPrtcltFltrActvRgnrtnInhb_0002 : 30|1@0+ (1,0) [0|0] "" X
+ SG_ DslPrtcltFltrActvRgnrtnInhbtdDTO : 28|1@0+ (1,0) [0|0] "" X
+ SG_ DslPrtcltFltrActvRgnrtnInhbtdDTA : 26|1@0+ (1,0) [0|0] "" X
+
+BO_ 419347942 MSG_0x18febde6: 8 X
+ SG_ Unknown_0 : 6|5@0- (1,0) [0|0] "" X
+ SG_ Unknown_1 : 0|1@0+ (1,0) [0|0] "" X
+
+BO_ 419355648 MSG_0x18fedc00: 8 X
+ SG_ Unknown_0 : 1|2@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 37|6@0+ (1,0) [0|0] "" X
+
+BO_ 419358976 MSG_0x18fee900: 8 X
+ SG_ Unknown_0 : 6|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 3|4@0+ (1,0) [0|0] "" X
+ SG_ Unknown_2 : 38|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_3 : 35|4@0+ (1,0) [0|0] "" X
+
+BO_ 419361041 MSG_0x18fef111: 8 X
+ SG_ Unknown_0 : 2|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 8|15@1+ (1,0) [0|0] "" X
+ SG_ Unknown_3 : 30|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_4 : 28|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_5 : 26|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_6 : 49|2@0+ (1,0) [0|0] "" X
+
+BO_ 419362048 AMB: 8 X
+ SG_ EngAirIntakeTemp : 41|2@0+ (1,-40) [0|0] "deg C" X
+
+BO_ 419362065 MSG_0x18fef511: 8 X
+ SG_ Unknown_0 : 24|11@1+ (1,0) [0|0] "" X
+
+BO_ 419362071 MSG_0x18fef517: 8 X
+ SG_ Unknown_0 : 24|11@1+ (1,0) [0|0] "" X
+
+BO_ 419362583 MSG_0x18fef717: 8 X
+ SG_ Unknown_0 : 36|5@0+ (1,0) [0|0] "" X
+
+BO_ 419362819 MSG_0x18fef803: 8 X
+ SG_ Unknown_0 : 32|10@1+ (1,0) [0|0] "" X
+
+BO_ 419363351 MSG_0x18fefa17: 8 X
+ SG_ Unknown_0 : 12|5@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 20|5@0+ (1,0) [0|0] "" X
+ SG_ Unknown_2 : 36|5@0+ (1,0) [0|0] "" X
+
+BO_ 419363863 MSG_0x18fefc17: 8 X
+ SG_ Unknown_0 : 13|6@0+ (1,0) [0|0] "" X
+
+BO_ 486522368 MSG_0x1cffbe00: 8 X
+ SG_ Unknown_0 : 6|2@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1 : 2|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_2 : 9|2@0+ (1,0) [0|0] "" X
+ SG_ Unknown_3 : 39|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_4 : 35|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_5 : 33|2@0+ (1,0) [0|0] "" X
+ SG_ Unknown_6 : 40|1@0+ (1,0) [0|0] "" X
+
+BO_ 486525184 MSG_0x1cffc900: 8 X
+ SG_ Unknown_0 : 39|8@0+ (1,0) [0|0] "" X
+
+
+BO_ 217055747 ETC1: 8 X
+ SG_ TrnsTrqCnvrtrLckpTrnstnInPrcess : 6|1@0+ (1,0) [0|0] "" X
+ SG_ TransShiftInProcess : 4|1@0+ (1,0) [0|0] "" X
+ SG_ TrnsTrqueConverterLockupEngaged : 2|1@0+ (1,0) [0|0] "" X
+ SG_ TransDrivelineEngaged : 0|1@0+ (1,0) [0|0] "" X
+ SG_ TransOutputShaftSpeed : 8|14@1+ (0.125,0) [0|0] "rpm" X
+ SG_ TransInputShaftSpeed : 40|14@1+ (0.125,0) [0|0] "rpm" X
+
+BO_ 217056256 EEC1: 8 X
+ SG_ Unknown_0 : 3|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1_split_0 : 0|1@0+ (1,0) [0|0] "" X
+ SG_ DriversDemandEngPercentTorque : 15|8@0+ (1,-125) [0|0] "%" X
+ SG_ ActualEngPercentTorque : 23|8@0+ (1,-125) [0|0] "%" X
+ SG_ EngSpeed : 24|14@1+ (0.125,0) [0|0] "rpm" X
+ SG_ SrcAddrssOfCtrllngDvcFrEngCntrl : 41|2@0+ (1,0) [0|0] "" X
+
+
+BO_ 217058307 ETC8: 8 X
+ SG_ TransTorqueConverterRatio : 0|16@1+ (0.001,0) [0|0] "" X
+ SG_ TransClutch_ConverterInputSpeed : 16|14@1+ (0.125,0) [0|0] "rpm" X
+
+BO_ 218038801 MSG_0xcff0211: 8 X
+ SG_ Unknown_0 : 13|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1_split_0 : 16|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1_split_1 : 31|16@0+ (1,0) [0|0] "" X
+ SG_ Unknown_2 : 46|7@0+ (1,0) [0|0] "" X
+
+BO_ 418383107 ETC2: 8 X
+ SG_ TransSelectedGear : 7|8@0+ (1,-125) [0|0] "" X
+ SG_ TransActualGearRatio : 8|13@1+ (0.001,0) [0|0] "" X
+ SG_ TransCurrentGear : 31|8@0+ (1,-125) [0|0] "" X
+ SG_ Unknown_2 : 46|5@0+ (1,0) [0|0] "" X
+ SG_ Unknown_3 : 62|7@0+ (1,0) [0|0] "" X
+
+
+BO_ 418384139 MSG_0x18f0090b: 8 X
+ SG_ Unknown_4_split_0 : 55|8@0+ (1,0) [0|0] "" X
+ SG_ Unknown_4_split_1 : 63|8@0+ (1,0) [0|0] "" X
+
+
+BO_ 419283979 EBC5: 8 X
+ SG_ XBRActiveCtrlMode : 12|1@0+ (1,0) [0|0] "" X
+ SG_ FoundationBrakeUse : 8|1@0+ (1,0) [0|0] "" X
+
+
+BO_ 419356416 EEC3: 8 X
+ SG_ NominalFrictionPercentTorque : 2|3@0+ (1,-125) [0|0] "%" X
+ SG_ EngsDesiredOperatingSpeed : 8|14@1+ (0.125,0) [0|0] "rpm" X
+
+BO_ 419358231 MSG_0x18fee617: 8 X
+ SG_ Unknown_0 : 7|6@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1_split_0 : 13|1@0+ (1,0) [0|0] "" X
+ SG_ Unknown_1_split_1 : 12|5@0+ (1,0) [0|0] "" X
+ SG_ Unknown_2 : 17|1@0+ (1,0) [0|0] "" X
+
+BO_ 419360256 ET1: 8 X
+ SG_ EngCoolantTemp : 7|8@0+ (1,-40) [0|0] "deg C" X
+ SG_ EngOilTemp1 : 16|13@1+ (0.03125,-273) [0|0] "deg C" X
+
+BO_ 419360512 EFL_P1: 8 X
+ SG_ EngOilPress : 30|7@0+ (4,0) [0|0] "kPa" X
+ SG_ EngCrankcasePress : 32|10@1+ (0.0078125,-250) [0|0] "kPa" X
+
+BO_ 419361280 LFE: 8 X
+ SG_ EngFuelRate : 0|11@1+ (0.05,0) [0|0] "L/h" X
+ SG_ EngInstantaneousFuelEconomy : 16|16@1+ (0.001953125,0) [0|0] "km/L" X
+ SG_ Unknown_2 : 34|2@0+ (1,0) [0|0] "" X
+ SG_ EngThrottleValve1Pos : 55|8@0+ (0.4,0) [0|0] "%" X
+
+
+BO_ 419362304 IC1: 8 X
+ SG_ EngIntakeManifold1Press : 14|7@0+ (2,0) [0|0] "kPa" X
+ SG_ EngIntakeManifold1Temp : 21|6@0+ (1,-40) [0|0] "deg C" X
+ SG_ EngAirIntakePress : 31|8@0+ (2,0) [0|0] "kPa" X
+ SG_ EngExhaustGasTemp : 40|15@1+ (0.03125,-273) [0|0] "deg C" X
